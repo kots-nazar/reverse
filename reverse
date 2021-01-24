@@ -1,0 +1,4 @@
+print('Реверс текста')
+text = input('Введіть текст >>> ')
+res = reversed(text)
+print(''.join(res))
